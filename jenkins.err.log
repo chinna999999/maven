@@ -1,0 +1,37 @@
+2021-09-14 06:42:12.020+0000 [id=1]	INFO	org.eclipse.jetty.util.log.Log#initialized: Logging initialized @1235ms to org.eclipse.jetty.util.log.JavaUtilLog
+2021-09-14 06:42:12.160+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2021-09-14 06:42:12.488+0000 [id=1]	WARNING	o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2021-09-14 06:42:12.645+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-9.4.42.v20210604; built: 2021-06-04T17:33:38.939Z; git: 5cd5e6d2375eeab146813b0de9f19eda6ab6e6cb; jvm 11.0.12+8-LTS-237
+2021-09-14 06:42:13.613+0000 [id=1]	INFO	o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2021-09-14 06:42:13.691+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2021-09-14 06:42:13.691+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2021-09-14 06:42:13.691+0000 [id=1]	INFO	o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 600000ms
+2021-09-14 06:42:14.832+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+2021-09-14 06:42:15.097+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started w.@66d57c1b{Jenkins v2.303.1,/,file:///C:/Windows/System32/config/systemprofile/AppData/Local/Jenkins/war/,AVAILABLE}{C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\war}
+2021-09-14 06:42:15.144+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@5aa9e4eb{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-09-14 06:42:15.144+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started @4358ms
+2021-09-14 06:42:15.144+0000 [id=24]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2021-09-14 06:42:15.874+0000 [id=31]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2021-09-14 06:42:26.433+0000 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$2 (file:/C:/Windows/System32/config/systemprofile/AppData/Local/Jenkins/war/WEB-INF/lib/guice-4.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2021-09-14 06:42:34.636+0000 [id=37]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2021-09-14 06:42:34.636+0000 [id=34]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2021-09-14 06:42:37.055+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2021-09-14 06:42:37.164+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2021-09-14 06:42:37.164+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2021-09-14 06:42:37.242+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2021-09-14 06:42:37.242+0000 [id=30]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2021-09-14 06:42:37.289+0000 [id=51]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Download metadata
+2021-09-14 06:42:37.320+0000 [id=51]	INFO	hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2021-09-14 06:42:37.476+0000 [id=35]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2021-09-14 06:42:37.539+0000 [id=23]	INFO	hudson.WebAppMain$3#run: Jenkins is fully up and running
+2021-09-14 06:42:59.484+0000 [id=51]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2021-09-14 06:43:00.156+0000 [id=51]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+2021-09-14 06:43:01.171+0000 [id=51]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+2021-09-14 06:43:04.093+0000 [id=51]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tools.JDKInstaller
+2021-09-14 06:43:04.093+0000 [id=51]	INFO	hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
+2021-09-14 06:43:04.109+0000 [id=51]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Download metadata. 26,804 ms

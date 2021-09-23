@@ -1,0 +1,11 @@
+2021-09-14 12:32:23,506 INFO  - Stopping jenkins
+2021-09-14 12:32:23,506 DEBUG - ProcessKill 5176
+2021-09-14 12:32:23,615 INFO  - Found child process: 4876 Name: conhost.exe
+2021-09-14 12:32:23,646 INFO  - Stopping process 4876
+2021-09-14 12:32:23,646 INFO  - Send SIGINT 4876
+2021-09-14 12:32:23,646 WARN  - SIGINT to 4876 failed - Killing as fallback
+2021-09-14 12:32:23,646 INFO  - Stopping process 5176
+2021-09-14 12:32:23,646 INFO  - Send SIGINT 5176
+2021-09-14 12:32:23,646 WARN  - SIGINT to 5176 failed - Killing as fallback
+2021-09-14 12:32:23,646 INFO  - Finished jenkins
+2021-09-14 12:32:23,646 DEBUG - Completed. Exit code is 0
